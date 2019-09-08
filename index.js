@@ -1,6 +1,7 @@
 'use strict';
 
 function addResults(responseJson) {
+    $('.results').empty();
     for (let i = 0; i < responseJson.length; i++) {
         $('.results').append(
             `
